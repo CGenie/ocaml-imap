@@ -41,7 +41,7 @@ val connect: host:string -> port:int -> username:string -> password:string -> t 
 val disconnect: t -> unit Lwt.t
 (** Disconnect. *)
 
-(** {1 Commands} *)
+(** {2 Commands} *)
 
 (* val poll: t -> unit Lwt.t *)
 
