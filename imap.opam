@@ -11,6 +11,7 @@ depends: [
   "uutf"
   "angstrom"
   "sexplib"
+  "ppx_expect"
   "ppx_sexp_conv" {build}
   "lwt"
   "lwt_ssl"
