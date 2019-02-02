@@ -20,4 +20,20 @@
    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
    SOFTWARE. *)
 
+include Common
+
+include Core
+
+module Fetch = struct
+  include Fetch
+end
+
 include Filter
+
+module MIME = struct
+  include MIME
+end
+
+module Search = struct
+  include Search
+end
